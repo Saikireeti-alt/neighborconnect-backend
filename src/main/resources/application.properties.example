@@ -9,3 +9,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 server.error.include-message=always
 spring.jpa.open-in-view=true
+
+# JWT login: any random text of 32+ characters. Keep your real value only in application.properties (not committed).
+app.jwt.secret=replace-with-a-long-random-text-of-32-or-more-characters
+app.jwt.expiry-hours=8
